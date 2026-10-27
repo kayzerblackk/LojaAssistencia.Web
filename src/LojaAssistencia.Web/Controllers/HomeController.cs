@@ -6,7 +6,12 @@ namespace LojaAssistencia.Web.Controllers;
 
 public class HomeController : Controller
 {
-    public IActionResult Index()
+    public IActionResult Início()
+    {
+        return View();
+    }
+
+    public IActionResult Carrinho()
     {
         return View();
     }
