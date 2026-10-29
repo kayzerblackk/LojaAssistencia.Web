@@ -1,11 +1,20 @@
-# Loja Assistência - CRUD de Produtos
+# Computer Store & Repair Shop — Product CRUD
 
-## 1. Visão geral
+## 1. Overview
 
-O objetivo deste projeto é justamente criar um CRUD, um conjunto de operações (Criar, Ler, Editar e Deletar) cujo objetivo funcional permite com que o administrador da aplicação, diretamente pelo site, poderá passar por uma pequena série de autenticação e validação que comprove sua permissão de administrador para que possa exercer suas tarefas. Pequenas séries estas, que ainda são apenas funcionalidades planejadas até o momento.
-Uma loja de informática, por sua vez, necessitaria de um sistema como tal para que possa ter total ciência da quantidade de produtos em seu estoque juntamente à facilidade em cadastrar novos produtos no mesmo.
+The goal of this project is to develop a web application for managing products in a computer store and repair shop using CRUD operations (**Create, Read, Update, and Delete**).
 
-## 2. Tecnologias previstas
+The application is designed to allow administrators to manage products directly through the website, including viewing inventory, registering new products, updating product information, and removing products when necessary.
+
+Authentication and authorization mechanisms are planned to ensure that only users with administrator permissions can perform restricted operations. These security features are not yet implemented.
+
+For a computer store and repair shop, this system aims to simplify inventory management by providing an organized way to track available products and register new items.
+
+**The project is currently under development**, with additional CRUD operations and administrative features planned for future implementation.
+
+## 2. Technologies
+
+The project uses or plans to incorporate the following technologies:
 
 - C#
 - ASP.NET Core MVC
@@ -16,3 +25,16 @@ Uma loja de informática, por sua vez, necessitaria de um sistema como tal para 
 - CSS
 - Bootstrap
 - Git
+
+## 3. Development Status
+
+The following functionality has been implemented:
+
+- **Read:** Displaying a list of products through an ASP.NET Core MVC view.
+
+Planned functionality includes:
+
+- **Create:** Registering new products.
+- **Update:** Editing existing product information.
+- **Delete:** Removing products.
+- **Authentication and Authorization:** Restricting administrative operations to authorized users.
