@@ -3,6 +3,19 @@
 ##
 ## Get latest from `dotnet new gitignore`
 
+# Arquivos gerados pelo .NET
+bin/
+obj/
+
+# Configurações locais do Visual Studio
+.vs/
+*.user
+
+# Banco de dados local
+app.db
+app.db-shm
+app.db-wal
+
 # dotenv files
 .env
 
