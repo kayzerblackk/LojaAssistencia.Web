@@ -1,12 +1,11 @@
-# Loja Assistência
+# Loja Assistência - CRUD de Produtos
 
-Aplicação web para gerenciamento de solicitações de serviços de uma loja de informática e manutenção.
+## 1. Visão geral
 
-## Objetivo
+O objetivo deste projeto é justamente criar um CRUD, um conjunto de operações (Criar, Ler, Editar e Deletar) cujo objetivo funcional permite com que o administrador da aplicação, diretamente pelo site, poderá passar por uma pequena série de autenticação e validação que comprove sua permissão de administrador para que possa exercer suas tarefas. Pequenas séries estas, que ainda são apenas funcionalidades planejadas até o momento.
+Uma loja de informática, por sua vez, necessitaria de um sistema como tal para que possa ter total ciência da quantidade de produtos em seu estoque juntamente à facilidade em cadastrar novos produtos no mesmo.
 
-Permitir que clientes criem solicitações de manutenção e acompanhem o andamento dos serviços.
-
-## Tecnologias previstas
+## 2. Tecnologias previstas
 
 - C#
 - ASP.NET Core MVC
